@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: #00b7ff;
+}
+
+.play-ground {
+    margin-top: 25px;
+    z-index: 10;
+}
+
+/* Monitor and Larger */
+
+@media only screen and (min-width: 1800px) {
+    .play-ground{
+        margin-top: 100px;
+    }
+}
+
+/* Large smart phone vertical  */
+
+@media screen and (max-width:10px ) { 
+    .play-ground{
+        margin-top: 20px;
+    }
+}
